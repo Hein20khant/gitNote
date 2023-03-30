@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+
+<body>
+    <button id="theme">change theme</button>
+    <div class="intallation">
+        <div class="cover">
+            <h3>git init</h3><button id="move">-></button>
+            <p>run this command to starts and use git</p>
+            <h3>git add {file's name} (or) git add .</h3>
+            <p>one file add to station run git add {file's name}</p>
+            <p>Or all file add to station run git add . this (.) mean is in this folder all file</p>
+            <h3>git status</h3>
+            <p>use git status to checkout in station or not.</p>
+            <h3>git commit -m "file's name"</h3>
+            <p>if all file are already to commit, use this command.</p>
+            <h3>git log (or) git log --oneline</h3>
+            <p>use these command to see the commit</p>
+            <P>git log will show all details and commit name</P>
+            <p>git log --oneline will show commit {id} and commit name </p>
+            <h3>git checkout {file's id}</h3>
+            <P>use (git checkout {file's id}) command to see that commit</P>
+            <p>see up to get file's id . use (ctrl+shift+c) to copy. use(ctrl+shift+v) to past </p>
+            <p>And use (git checkout master) to go back present</p>
+            <h3>git revert {file's id}</h3>
+            <p>use (git revert {fiel's id}) command to delete that commit and it will save another name</p>
+            <h3>git reset {file's id} --hard</h3>
+            <p>use (git reset {file's id} --hard) to delete all commit and it will get never</p>
+            <h3>git branch -a</h3>
+            <p>use (git branch -a) to see branch</p>
+            <h3>git branch {name}</h3>
+            <p>use (git branch {name}) to create branch</p>
+            <h3>git checkout {branch's name}</h3>
+            <p>use (git checkout {branch's name}) go to that branch</p>
+            <h3>git checkout -b {branch's name} (easy way)</h3>
+            <p>use (git checkout -b {branch's name}) to go that branch and create that branch </p>
+            <h3>git branch -D {branch's name}</h3>
+            <p>use (git branch -D {branch's name}) to delete that branch. you have been already in master to delete </p>
+            <h3>git merge {branch's name}</h3>
+            <p>use () to add that branch in master </p>
+            <h3>git stash {--include-untracked}</h3>
+            <p>pause</p>
+            <h3>git stash pop</h3>
+            <p>to get back</p>
+            <pre> 
+                --  
+                echo "# my_portfolio" >> README.md
+                git init
+                git add README.md
+                git commit -m "first commit"
+                git branch -M main
+                git remote add origin https://...
+                git push -u origin main
+                <!-- https://github.com/Hein20khant/my_portfolio.git -->
+                git remote add origin https://...
+                git branch -M main
+                git push -u origin main
+                --
+            </pre>
+        </div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>

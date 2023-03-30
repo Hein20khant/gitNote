@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+}
+
+#theme {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.intallation {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.intallation .cover {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.intallation h3 {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+.intallation p {
+    color: rgb(46, 44, 44);
+    margin-bottom: 4px;
+}
